@@ -10,11 +10,27 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://app.fashionlab.tech/og-image.png
 tags:
 - Company
+- Fashion
+- Apparel
+- Nordic
+- Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +38,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fashionlab-nordic-inc-domain-security.yml
 - type: Website
   url: https://fashionlab.tech
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
