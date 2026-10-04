@@ -1,5 +1,5 @@
 aid: fashionlab-nordic-inc
-name: FashionLab Nordic Inc.
+name: FashionLab Nordic
 description: FashionLab Nordic Inc. is a company surfaced as a portfolio company of 500-global and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
   pipeline.
@@ -58,3 +58,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: FashionLab Nordic Inc.
